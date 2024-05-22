@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.learn.dependency.TestNGDependencyDemo">
+        <methods>
+          <include name="test3"/>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.learn.dependency.TestNGDependencyDemo -->
+      <class name="com.learn.listeners.TestNGListenterDemo2">
+        <methods>
+          <include name="test5"/>
+          <include name="test6"/>
+        </methods>
+      </class> <!-- com.learn.listeners.TestNGListenterDemo2 -->
+      <class name="com.learn.listeners.TestNGListenterDemo">
+        <methods>
+          <include name="test2"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.learn.listeners.TestNGListenterDemo -->
+      <class name="com.learn.dependency.TestNGDependencyDemo2">
+        <methods>
+          <include name="test3"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.learn.dependency.TestNGDependencyDemo2 -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
